@@ -18,6 +18,15 @@ public class Locators {
 	public final By podlogin_password_editbox=By.name("password");
 	public final By podlogin_contact_click=By.xpath("//*[@id=\"content\"]/div/div[2]/form/div[4]/div/div/label[1]/span");
 	public final By podlogin_login_click=By.xpath("//*[@id=\"content\"]/div/div[2]/form/div[5]/div/button");
+
 	
+	public final By opencart_register_click=By.xpath("//*[@id=\"navbar-collapse-header\"]/div/a[2]");
+	public final By opencart_username_editbox=By.id("input-username");
+	public final By opencart_firstname_editbox=By.id("input-firstname");
+	public final By opencart_last_editbox=By.id("input-lastname");
+	public final By opencart_email_editbox=By.id("input-email");
+	public final By opencart_country_dropdown=By.id("input-country");
+	public final By opencart_password_editbox=By.id("input-password");
+	public final By opencart_register1_click=By.xpath("//*[@id=\"button-register\"]/button[1]");
 	
 }

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testscenarios.podfood_meena">
+      <class name="com.testscenarios.opencart_meena">
         <methods>
-          <include name="login"/>
+          <include name="opencart_register"/>
         </methods>
-      </class> <!-- com.testscenarios.podfood_meena -->
+      </class> <!-- com.testscenarios.opencart_meena -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
