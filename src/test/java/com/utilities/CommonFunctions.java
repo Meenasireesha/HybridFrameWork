@@ -1,10 +1,13 @@
 package com.utilities;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Properties;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -18,6 +21,13 @@ public class CommonFunctions {
 	public static WebDriver driver;
 
 	public Locators loc = new Locators();
+
+	public String readPropertyFileData(String input) throws Exception {
+		Properties p = new Properties();
+		FileInputStream fi = new FileInputStream(".\\src\\test\\resources\\testdata\\QA_Envi.properties");
+		p.load(fi);
+		return p.getProperty(input);
+	}
 
 	public void chromeBrowser() {
 		driver = new ChromeDriver();

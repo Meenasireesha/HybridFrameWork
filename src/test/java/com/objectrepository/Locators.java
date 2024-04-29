@@ -29,6 +29,8 @@ public class Locators {
 	public final By opencart_password_editbox=By.id("input-password");
 	public final By register_errorMsgs=By.xpath("//*[@class='text-danger']");
 
-	
-	
+	//php locators
+	public final By phpLogin_fname_editbox = By.name("first_name");
+	public final By phpLogin_sumbit_button = By.id("demo");
+
 }

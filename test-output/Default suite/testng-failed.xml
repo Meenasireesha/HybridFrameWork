@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testscenarios.opencart_meena">
+      <class name="com.testscenarios.PHP_demo">
         <methods>
-          <include name="opencart_register"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- com.testscenarios.opencart_meena -->
+      </class> <!-- com.testscenarios.PHP_demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
