@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-29T07:20:53 MDT" name="Default suite" finished-at="2024-04-29T07:20:59 MDT" duration-ms="5216">
+  <suite started-at="2024-05-01T06:48:34 MDT" name="Default suite" finished-at="2024-05-01T06:48:52 MDT" duration-ms="18189">
     <groups>
     </groups>
-    <test started-at="2024-04-29T07:20:53 MDT" name="Default test" finished-at="2024-04-29T07:20:59 MDT" duration-ms="5216">
-      <class name="com.testscenarios.PHP_demo">
-        <test-method signature="f()[pri:0, instance:com.testscenarios.PHP_demo@799f10e1]" started-at="2024-04-29T07:20:53 MDT" name="f" finished-at="2024-04-29T07:20:59 MDT" duration-ms="5177" status="PASS">
+    <test started-at="2024-05-01T06:48:34 MDT" name="Default test" finished-at="2024-05-01T06:48:52 MDT" duration-ms="18189">
+      <class name="com.testscenarios.Clg_rig">
+        <test-method signature="f()[pri:0, instance:com.testscenarios.Clg_rig@31304f14]" started-at="2024-05-01T06:48:34 MDT" name="f" finished-at="2024-05-01T06:48:52 MDT" duration-ms="18134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.testscenarios.PHP_demo -->
+      </class> <!-- com.testscenarios.Clg_rig -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

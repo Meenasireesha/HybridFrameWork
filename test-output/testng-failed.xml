@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testscenarios.PHP_demo">
+      <class name="com.testscenarios.Clg_rig">
         <methods>
           <include name="f"/>
         </methods>
-      </class> <!-- com.testscenarios.PHP_demo -->
+      </class> <!-- com.testscenarios.Clg_rig -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
