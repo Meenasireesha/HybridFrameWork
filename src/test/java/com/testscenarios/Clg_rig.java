@@ -16,6 +16,9 @@ public class Clg_rig extends CommonFunctions {
 		sendKeysByAnyLocator(loc.clg_pwd_editbox, "clg_password");
 		sendKeysByAnyLocator(loc.clg_cnfpwd_editbox, "clg_CnfPassword");
 		clickByAnyLocator(loc.clg_submit_Button);
+		
+		
+	
 
 	}
 }
